@@ -1,0 +1,28 @@
+name: slides_karaoke
+description: "A several sets of slides for karaoke powered by flutter_deck."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_deck: ^0.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/flutter-is-dead/
+    - assets/flutter-and-friends/
+    - assets/is-dash-swedish/
+    - assets/state-management/
